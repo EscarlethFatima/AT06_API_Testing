@@ -1,4 +1,4 @@
-# This function return a dictionary with the letters existing and number of occurrences given a word
+# This function return a dictionary with the letters existing and number of occurrences given a word and the dictionary is sorted
 
 
 def convert_string_to_dictionary(string):
