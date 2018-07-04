@@ -1,6 +1,7 @@
 Research:
 WHEN AND WHY BDD WAS DEFINED
-In 2009, Behavior-driven development (BDD) was developed by Dan North as a response to the issues encountered teaching test-driven development like:
+In 2009, Behavior-driven development (BDD) was developed by Dan North as a response to the issues encountered teaching test-driven
+ development like:
 •	Where to start in the process
 •	What to test and what not to test
 •	How much to test in one go
@@ -8,12 +9,14 @@ In 2009, Behavior-driven development (BDD) was developed by Dan North as a respo
 •	How to understand why a test fails
 
 THE MOST IMPORTANT ASPECTS OF BDD
-BDD looks for a common language to unite the technical part and the business part, and that is from that common language from where the Testing starts and, from there, the development.
+BDD looks for a common language to unite the technical part and the business part, and that is from that common language
+from where the Testing starts and, from there, the development.
 And some aspects mentioned by the creator of BDD(North) are:
 •	Unit test names should be whole sentences starting with the word “should “and should be written in order of business value.
 •	Acceptance tests should be written using the standard agile framework of a User story:
 •	“As a [role] I want [feature] so that [benefit]”.
-•	Acceptance criteria should be written in terms of scenarios and implemented as classes: Given [initial context], when [event occurs], then [ensure some outcomes].
+•	Acceptance criteria should be written in terms of scenarios and implemented as classes: Given [initial context],
+when [event occurs], then [ensure some outcomes].
 
 WHY IS USEFUL AND WHEN COULD BE APPLIED.
 o	Collaboration
@@ -24,12 +27,16 @@ o	Self-documentation
 o	Focus on Behavior
 
 These points are mentioned in the slides but basically are:
-BDD is a development based on the collaboration of the whole team as such in which developers, Qas and PO participate in the software development process.
-Because BDD is based on behavior it is easier to develop on the testing side since the tests are written in the natural language therefore it is easier to give feedback to the same PO, and since they are easy to understand, these themselves self-document unlike previous years where the tests should have an extra documentation about what is being tested.
+BDD is a development based on the collaboration of the whole team as such in which developers, Qas and PO participate in the
+software development process.Because BDD is based on behavior it is easier to develop on the testing side since the tests are
+written in the natural language therefore it is easier to give feedback to the same PO, and since they are easy to understand,
+these themselves self-document unlike previous years where the tests should have an extra documentation about what is being tested.
 Also, a clear advantage of BDD is that the developers focus on seeing what has to work and in what way at the business level.
 
 WHICH TYPE OF TEAMS COULD IMPLEMENT BDD
-Teams in which the software development process is started, because an important feature is that BDD goes hand in hand with developers, Qas, P.O from the beginning of development, unlike BDT in which the tests are performed after that the software has already been developed.
+Teams in which the software development process is starting, because an important feature is that BDD goes hand in hand with
+developers, Qas, P.O from the beginning of development, unlike BDT in which the tests are performed after that the software
+has already been developed.
 Something important is also that there must be a person who controls the fulfillment of this development for the success of it.
 
 STRUCTURE OF A FEATURE – GIVE AN EXAMPLE
@@ -69,7 +76,9 @@ Then I am able to save the account
 And I can see the new account created
 
 DIFFERENCES BETWEEN BDD AND BDT
-Both concepts are similar but in this BDT case is focusing in the process of testing especially, a difference is that the process of BDD starts with all the participants included, but BDT can be starts in whatever phase of software development to apply the testing.
+Both concepts are similar but in this BDT case is focusing in the process of testing especially, a difference is that the
+process of BDD starts with all the participants included, but BDT can be starts in whatever phase of software development to
+apply the testing.
 
 
 
